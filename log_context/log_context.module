@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Implements hook_page_attachments
+ *
+ * Adds the log_module script to the page.
+ */
 function log_context_page_attachments(array &$page) {
   $page['#attached']['library'][] = 'log_context/log-context';
 }
