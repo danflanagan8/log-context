@@ -1,0 +1,6 @@
+name: Log Context
+type: module
+description: 'Log the context variable anytime Drupal.attachBehaviors is called.'
+package: Testing
+version: VERSION
+core: 8.x

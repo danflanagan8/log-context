@@ -1,0 +1,9 @@
+<?php
+
+function log_context_page_attachments(array &$page) {
+  $user = \Drupal::currentUser()->getRoles();
+  if(!in_array('administrator', $user)) {
+    return;
+  }
+  $page['#attached']['library'][] = 'log_context/log-context';
+}

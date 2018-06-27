@@ -1,0 +1,4 @@
+log-context:
+  version: VERSION
+  js:
+    js/logContext.js: {}
