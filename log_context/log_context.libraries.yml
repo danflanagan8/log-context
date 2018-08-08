@@ -4,3 +4,5 @@ log-context:
     js/logContext.js: {}
   dependencies:
     - core/jquery
+    - core/drupal
+    - core/drupalSettings
