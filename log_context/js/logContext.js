@@ -2,7 +2,7 @@
   Drupal.behaviors.logContext = {
     attach: function(context, drupalSettings) {
       $('body').once('context-log-test-info').each(function(){
-        console.log('👓 Call Drupal.behaviors.logContext.test() to see if the page can handle a new element. 🔍');
+        console.log('👓 Call Drupal.behaviors.logContext.test() from the console to see if the page can handle a new element. 🔍');
       });
 
       console.log('Drupal\'s attachBehaviors function was called. The "context" variable is logged below.');

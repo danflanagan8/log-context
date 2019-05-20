@@ -1,8 +1,8 @@
 log-context:
-  version: VERSION
   js:
     js/logContext.js: {}
   dependencies:
     - core/jquery
     - core/drupal
     - core/drupalSettings
+    - core/jquery.once
